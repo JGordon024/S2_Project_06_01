@@ -24,6 +24,7 @@ html {
 
 
 /* Body Styles */
+/* Created 4 stars on top of the image of space */
 body {
     background-image: url(sd_back2.png),
         radial-gradient(circle closest-corner at 40% 70%, white 15%, rgba(151, 151, 151, 0.5) 50%),
@@ -35,6 +36,7 @@ body {
 }
 
 /* Navigation List Styles */
+/* Created a border surrounding the link boxes */
 body>header a {
     border: outset 5px rgb(211, 211, 255);
 }
@@ -42,17 +44,20 @@ body>header a {
 
 
 /* Section Left Styles */
+/* Gives h1 headers in articles located in the left section a color and black shadow */
 section#left article h1 {
     color: rgb(211, 211, 211);
     text-shadow: black 0px 5px;
 }
 
+/* Adds filters to image and flips him 180 degrees */
 section#left img#mportrait {
     filter: drop-shadow(-15px 0px 5px rgba(51, 51, 51, 0.9)) grayscale(0.7) opacity(0.6);
     transform: rotateY(180deg);
 }
 
 /* Footer Styles */
+/* Adds a small gray border separating the footer from the body */
 footer {
     border-top: solid 2px rgb(171, 171, 171)
 }
